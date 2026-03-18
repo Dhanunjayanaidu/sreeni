@@ -143,28 +143,33 @@
     <div class="header-area style-two" id="sticky-header">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-3">
+          <div class="col">
             <div class="header-logo">
               <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+              <!-- <a href="index.html">PowerForge</a> -->
             </div>
           </div>
-          <div class="col-lg-9">
+          <div class="col-lg-auto">
             <div class="header-menu">
               <ul>
                 <li class="menu-item-has-children">
-                  <a href="index.html">Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li class="menu-item-has-children">
-                  <a href="about.html">About</a>
+                  <a href="#whoWeServe">Who We Serve</a>
                 </li>
                 <li class="menu-item-has-children">
-                  <a href="service.html">Service</a>
+                  <a href="#ourService">Services</a>
                 </li>
                 <li class="menu-item-has-children">
-                  <a href="choose-us.html">Why Choose Us</a>
+                  <a href="#ourProcess">Process</a>
                 </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="menu-item-has-children">
+                  <a href="#why">Why Us</a>
+                </li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
+
               <div class="header-search-icon search-box-outer d-none">
                 <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
               </div>
@@ -172,6 +177,9 @@
                 <a href="contact.html">Get A Quote</a>
               </div>
             </div>
+          </div>
+          <div class="col-lg-auto">
+            <a href="#contact" class="nav-cta">Get Free Consultation</a>
           </div>
         </div>
       </div>
@@ -211,27 +219,78 @@
     <!--==================================================-->
     <!-- Start TechCom Hero Area Style One-->
     <!--==================================================-->
-    <div class="hero-area style-two d-flex align-items-center">
+    <div id="home" class="hero-area style-two d-flex align-items-center">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-8">
             <div class="hero-content">
-              <h4>IT Solution Agency in USA</h4>
-              <h1>Business Innovation</h1>
-              <h1>With IT Expert</h1>
+              <h4 class="mt-4">Microsoft Power Platform — Certified Expert</h4>
+              <h1><span class="text-primary">Smarter</span> Operations.</h1>
+              <h1>Faster <span class="text-primary">Decisions</span>.</h1>
+              <h1><span class="text-primary">Zero</span> Wasted Time.</h1>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
+                We design and deliver Microsoft Power Platform solutions — Power
+                Apps, Power Automate, Power BI, Copilot Studio, and SharePoint —
+                for organisations of every size. From lean SMBs to large
+                enterprises, government agencies, and non-profits.
               </p>
             </div>
             <div class="hero-button">
               <a href="contact.html"
-                >Lets Talk<i class="bi bi-arrow-right"></i
+                >Book a Free Strategy Call <i class="bi bi-arrow-right"></i
               ></a>
               <a class="button-two" href="about.html"
-                >Read More<i class="bi bi-arrow-right"></i
+                >Find Your Solution <i class="bi bi-arrow-right"></i
               ></a>
+            </div>
+            <div class="hero-button mt-5">
+              <div class="row">
+                <div class="col-auto">
+                  <p
+                    class="h1 mb-0 text-white fw-bold"
+                    style="font-family: Rajdhani"
+                  >
+                    50+
+                  </p>
+                  <p class="text-white">Solutions Delivered</p>
+                </div>
+                <div class="col-auto">
+                  <p
+                    class="h1 mb-0 text-white fw-bold"
+                    style="font-family: Rajdhani"
+                  >
+                    80%
+                  </p>
+                  <p class="text-white">Avg. Time Saved</p>
+                </div>
+                <div class="col-auto">
+                  <p
+                    class="h1 mb-0 text-white fw-bold"
+                    style="font-family: Rajdhani"
+                  >
+                    4
+                  </p>
+                  <p class="text-white">Client Types Served</p>
+                </div>
+                <div class="col-auto">
+                  <p
+                    class="h1 mb-0 text-white fw-bold"
+                    style="font-family: Rajdhani"
+                  >
+                    100%
+                  </p>
+                  <p class="text-white">Microsoft Ecosystem</p>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5">
+              <p class="h5 text-primary" style="font-family: Rajdhani">
+                Trusted by:
+              </p>
+              <p class="mb-0 text-white small" style="font-family: Rajdhani">
+                Small & Medium Businesses · Large Enterprises · Government
+                Agencies · Non-Profit Organisations
+              </p>
             </div>
           </div>
           <div class="col-lg-4">
@@ -254,7 +313,7 @@
     <!--==================================================-->
     <!-- Start TechCom Feature Area Style Two-->
     <!--==================================================-->
-    <div class="feature-area style-two">
+    <div class="feature-area style-two d-none">
       <div class="container">
         <div class="row add-marging">
           <div class="col-lg-4 col-md-6">
@@ -312,7 +371,7 @@
     <!--==================================================-->
     <!-- Start TechCom About Area Style two-->
     <!--==================================================-->
-    <div class="about-area style-two">
+    <div class="about-area style-two d-none">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
@@ -409,16 +468,528 @@
     <!--==================================================-->
 
     <!--==================================================-->
+    <!-- Start TechCom Portfolio Area  Style Two-->
+    <!--==================================================-->
+    <div id="whoWeServe" class="portfolio-area style-two">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-12 text-center pb-3">
+            <div class="section-title center style-two mb-3">
+              <h4>Who We Serve</h4>
+              <h1>One Platform.</h1>
+              <h1>Solutions for Every Organisation Type.</h1>
+              <p>
+                Select your organisation type below — we'll show you exactly how
+                we solve your specific challenges, what we deliver, and how we
+                do it.
+              </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <ul class="nav nav-pills" id="myTab" role="tablist">
+              <li class="nav-item me-3" role="presentation">
+                <button
+                  class="nav-link active"
+                  id="small-medium-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#small-medium"
+                  type="button"
+                  role="tab"
+                  aria-controls="small-medium"
+                  aria-selected="true"
+                >
+                  🏢 Small & Medium Business
+                </button>
+              </li>
+              <li class="nav-item me-3" role="presentation">
+                <button
+                  class="nav-link"
+                  id="large-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#large"
+                  type="button"
+                  role="tab"
+                  aria-controls="large"
+                  aria-selected="false"
+                >
+                  🏬 Large Enterprise
+                </button>
+              </li>
+              <li class="nav-item me-3" role="presentation">
+                <button
+                  class="nav-link"
+                  id="government-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#government"
+                  type="button"
+                  role="tab"
+                  aria-controls="government"
+                  aria-selected="false"
+                >
+                  🏛️ Government
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  id="non-profit-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#non-profit"
+                  type="button"
+                  role="tab"
+                  aria-controls="non-profit"
+                  aria-selected="false"
+                >
+                  🌍 Non-Profit
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="small-medium"
+                role="tabpanel"
+                aria-labelledby="small-medium-tab"
+              >
+                <div class="choose-us-area inner-style pt-4">
+                  <div class="container">
+                    <div class="row align-items-center">
+                      <div class="col-lg-6 ps-0">
+                        <div class="section-title left style-two">
+                          <h1 class="w-75">
+                            Built for Teams That Wear Many Hats
+                          </h1>
+                          <p>
+                            You're running a growing business with a small team,
+                            tight budget, and no dedicated IT department. You're
+                            already paying for Microsoft 365 — but using maybe
+                            10% of it. We help you unlock the rest, fast and
+                            affordably.
+                          </p>
+                        </div>
+                        <div class="single-choose-us-item">
+                          <ul>
+                            <li>
+                              Drowning in spreadsheets and manual data entry
+                              every day
+                            </li>
+                            <li>
+                              Chasing approvals over email with no visibility or
+                              audit trail
+                            </li>
+                            <li>
+                              Files scattered across email, USB drives, and
+                              personal desktops
+                            </li>
+                            <li>
+                              No real-time view of how the business is actually
+                              performing
+                            </li>
+                            <li>
+                              Too much time spent on admin — not enough on
+                              growing the business
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 pe-0">
+                        <div class="choose-us-thumb">
+                          <h4 class="text-primary mb-4">
+                            What We Deliver for SMBs
+                          </h4>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Fast go-live: most solutions up and running in 2–4
+                            weeks
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Priced for SMB budgets — no expensive enterprise
+                            contracts
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            No new software to buy — works inside your M365
+                            licence
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            We train your team so you're never dependent on us
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Plain-English communication — zero IT jargon
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Mobile-friendly apps for office and field-based
+                            staff
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="large"
+                role="tabpanel"
+                aria-labelledby="large-tab"
+              >
+                <div class="choose-us-area inner-style pt-4">
+                  <div class="container">
+                    <div class="row align-items-center">
+                      <div class="col-lg-6 ps-0">
+                        <div class="section-title left style-two">
+                          <h1 class="w-100">
+                            Scale, Govern, and Integrate at Enterprise Level
+                          </h1>
+                          <p>
+                            You have complex processes, multiple departments,
+                            legacy systems, and strict governance requirements.
+                            You need a Power Platform partner who goes beyond
+                            basic apps — someone who understands architecture,
+                            security, and enterprise-scale delivery.
+                          </p>
+                        </div>
+                        <div class="single-choose-us-item">
+                          <ul>
+                            <li>
+                              Siloed departments operating with disconnected
+                              data and tools
+                            </li>
+                            <li>
+                              Strict compliance, security, and governance
+                              requirements across the org
+                            </li>
+                            <li>
+                              Legacy system integrations that need careful,
+                              expert handling
+                            </li>
+                            <li>
+                              Inconsistent reporting data that slows executive
+                              decision-making
+                            </li>
+                            <li>
+                              Multiple business units needing scalable, unified
+                              solutions
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 pe-0">
+                        <div class="choose-us-thumb">
+                          <h4 class="text-primary mb-4">
+                            What We Deliver for Enterprise
+                          </h4>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Centre of Excellence (CoE) setup and platform
+                            governance
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Multi-department rollout with structured change
+                            management
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Legacy system integration via custom connectors and
+                            APIs
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Enterprise security, DLP policies, and compliance
+                            frameworks
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Power BI enterprise data models and semantic layers
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Dedicated project management, SLAs, and post-launch
+                            support
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="government"
+                role="tabpanel"
+                aria-labelledby="government-tab"
+              >
+                <div class="choose-us-area inner-style pt-4">
+                  <div class="container">
+                    <div class="row align-items-center">
+                      <div class="col-lg-6 ps-0">
+                        <div class="section-title left style-two">
+                          <h1 class="w-100">
+                            Modernise Public Services. Reduce Cost. Stay
+                            Compliant.
+                          </h1>
+                          <p>
+                            Government teams face unique pressures — ageing
+                            systems, strict procurement rules, public
+                            accountability, and the constant challenge of doing
+                            more with shrinking budgets. We've worked within
+                            these constraints and know how to deliver.
+                          </p>
+                        </div>
+                        <div class="single-choose-us-item">
+                          <ul>
+                            <li>
+                              Paper-based and outdated processes slowing down
+                              public service delivery
+                            </li>
+                            <li>
+                              Strict data sovereignty, security classification,
+                              and audit requirements
+                            </li>
+                            <li>
+                              Multiple agencies with fragmented, incompatible
+                              information systems
+                            </li>
+                            <li>
+                              Cross-department reporting that is slow, manual,
+                              and error-prone
+                            </li>
+                            <li>
+                              Public servants overburdened with administrative
+                              workload
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 pe-0">
+                        <div class="choose-us-thumb">
+                          <h4 class="text-primary mb-4">
+                            What We Deliver for Government
+                          </h4>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Fully compliant solutions within GovCloud or
+                            sovereign tenants
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Digital forms and workflows replacing paper-based
+                            processes
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Cross-department SharePoint intranets and knowledge
+                            hubs
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Automated reporting and executive briefing
+                            dashboards
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Case management tools and citizen self-service
+                            portals
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Alignment with procurement, accessibility, and audit
+                            standards
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="non-profit"
+                role="tabpanel"
+                aria-labelledby="non-profit-tab"
+              >
+                <div class="choose-us-area inner-style pt-4">
+                  <div class="container">
+                    <div class="row align-items-center">
+                      <div class="col-lg-6 ps-0">
+                        <div class="section-title left style-two">
+                          <h1 class="w-100">
+                            Maximise Mission Impact With the Budget You Have
+                          </h1>
+                          <p>
+                            Non-profits do extraordinary work — but limited
+                            resources, volunteer-heavy teams, and donor
+                            reporting demands stretch everyone thin. We help you
+                            automate the admin so your people can focus entirely
+                            on your mission.
+                          </p>
+                        </div>
+                        <div class="single-choose-us-item">
+                          <ul>
+                            <li>
+                              Tight budgets with no room for expensive
+                              commercial software
+                            </li>
+                            <li>
+                              Volunteer-heavy teams who need simple, easy-to-use
+                              tools
+                            </li>
+                            <li>
+                              Donor and grant reporting is manual,
+                              time-consuming, and error-prone
+                            </li>
+                            <li>
+                              Programme tracking scattered across spreadsheets
+                              and email threads
+                            </li>
+                            <li>
+                              High staff turnover means vital knowledge walks
+                              out the door
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 pe-0">
+                        <div class="choose-us-thumb">
+                          <h4 class="text-primary mb-4">
+                            What We Deliver for Non-Profits
+                          </h4>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Microsoft 365 Non-Profit licence setup and
+                            optimisation
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Donor management flows and automated
+                            acknowledgements
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Volunteer coordination and shift scheduling apps
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Grant tracking and impact reporting dashboards
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            SharePoint knowledge bases so nothing gets lost when
+                            staff change
+                          </p>
+                          <p>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            Flexible, affordable engagement models for
+                            constrained budgets
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid d-none">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="portfolio_nav">
+              <div class="portfolio_menu">
+                <ul class="menu-filtering">
+                  <li class="current_menu_item" data-filter="*">All items</li>
+                  <li data-filter=".technology">Technology</li>
+                  <li data-filter=".designing">Designing</li>
+                  <li data-filter=".bussiness">Bussiness</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row image_load">
+          <div class="col-lg-4 col-md-6 grid-item technology">
+            <div class="single-portfolio-box">
+              <div class="portfolio-thumb">
+                <img src="images/portfolio-1.png" alt="" />
+              </div>
+              <div class="portfolio-content">
+                <div class="portfolio-number">
+                  <h1>01</h1>
+                </div>
+                <div class="portfolio-title">
+                  <a href="project-details.html"
+                    >Business Growth with TechCom Agency
+                    <i class="bi bi-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 grid-item designing">
+            <div class="single-portfolio-box">
+              <div class="portfolio-thumb">
+                <img src="images/portfolio-2.png" alt="" />
+              </div>
+              <div class="portfolio-content">
+                <div class="portfolio-number">
+                  <h1>02</h1>
+                </div>
+                <div class="portfolio-title">
+                  <a href="project-details.html"
+                    >Desktop Application Development <i class="bi bi-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 grid-item bussiness">
+            <div class="single-portfolio-box">
+              <div class="portfolio-thumb">
+                <img src="images/portfolio-3.png" alt="" />
+              </div>
+              <div class="portfolio-content">
+                <div class="portfolio-number">
+                  <h1>03</h1>
+                </div>
+                <div class="portfolio-title">
+                  <a href="project-details.html"
+                    >Illustration and Vector Design for Add
+                    <i class="bi bi-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--==================================================-->
+    <!-- End TechCom Portfolio Area  Style Two-->
+    <!--==================================================-->
+
+    <!--==================================================-->
     <!-- Start TechCom Service Area Style Two-->
     <!--==================================================-->
-    <div class="service-area style-two">
+    <div id="ourService" class="service-area style-two">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <div class="section-title center style-two">
-              <h4>IT Support For Business</h4>
-              <h1>Ensuring Your Success Trusted</h1>
-              <h1>IT Services Source</h1>
+              <h4>Our Services</h4>
+              <h1>Five Services. One Ecosystem.</h1>
+              <h1>Measurable Results.</h1>
+              <p class="text-white w-75 mx-auto">
+                Every solution we build lives inside your existing Microsoft 365
+                environment — no new platforms, no new vendors, and no
+                disruption to how your team works today.
+              </p>
             </div>
           </div>
         </div>
@@ -431,15 +1002,33 @@
               <div class="service-number">
                 <h1>01</h1>
               </div>
-              <div class="service-content">
-                <h4>Graphic Design</h4>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
+              <div class="service-content pe-4">
+                <h4>Power Apps — Custom Business Apps</h4>
+                <p class="">
+                  Replace spreadsheets and paper forms with mobile-ready apps
+                  built for your exact processes — fast for SMBs, scalable and
+                  governed for enterprise and government.
                 </p>
-                <a href="service.html"
-                  >Read More<i class="bi bi-arrow-right"></i
-                ></a>
+                <div class="footer-widget-menu">
+                  <ul>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Approval, intake
+                      & case management apps
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Field service,
+                      inspection & audit tools
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Inventory, asset
+                      & job tracking systems
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Staff
+                      self-service & citizen portals
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -451,15 +1040,33 @@
               <div class="service-number">
                 <h1>02</h1>
               </div>
-              <div class="service-content">
-                <h4>Cloud Solutions</h4>
+              <div class="service-content pe-4">
+                <h4>Power Automate — Workflow Automation</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
+                  Eliminate repetitive manual tasks at any scale. We design
+                  flows that run 24/7 — handling approvals, notifications, data
+                  syncing, and cross-system integrations without human input.
                 </p>
-                <a href="service.html"
-                  >Read More<i class="bi bi-arrow-right"></i
-                ></a>
+                <div class="footer-widget-menu">
+                  <ul>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Multi-stage
+                      approvals & compliance flows
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> HR onboarding,
+                      offboarding & leave management
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Cross-system data
+                      sync & API integrations
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Automated
+                      reporting, alerts & escalations
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -471,15 +1078,34 @@
               <div class="service-number">
                 <h1>03</h1>
               </div>
-              <div class="service-content">
-                <h4>WP Development</h4>
+              <div class="service-content pe-4">
+                <h4>Power BI — Reports & Dashboards</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
+                  From a single operational dashboard for a small team to an
+                  enterprise-wide data platform — we turn your raw data into
+                  real-time decisions every level of your organisation can act
+                  on.
                 </p>
-                <a href="service.html"
-                  >Read More<i class="bi bi-arrow-right"></i
-                ></a>
+                <div class="footer-widget-menu">
+                  <ul>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Executive KPI &
+                      performance dashboards
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Sales, finance &
+                      operational reporting
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Impact & donor
+                      reporting for non-profits
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Enterprise data
+                      models & semantic layers
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -491,15 +1117,34 @@
               <div class="service-number">
                 <h1>04</h1>
               </div>
-              <div class="service-content">
-                <h4>Digital Marketing</h4>
+              <div class="service-content pe-4">
+                <h4>Copilot Studio — AI Assistants & Bots</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
+                  Deploy intelligent virtual assistants that handle queries,
+                  process requests, and escalate complex issues — for customers,
+                  citizens, staff, or volunteers, inside Teams or on your
+                  website.
                 </p>
-                <a href="service.html"
-                  >Read More<i class="bi bi-arrow-right"></i
-                ></a>
+                <div class="footer-widget-menu">
+                  <ul>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Customer &
+                      citizen self-service bots
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Internal HR, IT &
+                      policy helpdesk agents
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Donor engagement
+                      & volunteer onboarding bots
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Multilingual,
+                      accessible AI conversation agents
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -511,35 +1156,33 @@
               <div class="service-number">
                 <h1>05</h1>
               </div>
-              <div class="service-content">
-                <h4>3D Vector Illustration</h4>
+              <div class="service-content pe-4">
+                <h4>SharePoint Online — Intranet & Document Hub</h4>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
+                  One organised, searchable, secure hub for all your documents,
+                  policies, and team knowledge — built for your structure,
+                  whether you have 10 people or 10,000.
                 </p>
-                <a href="service.html"
-                  >Read More<i class="bi bi-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="single-services-box">
-              <div class="service-icon-thumb">
-                <img src="images/service-6.png" alt="" />
-              </div>
-              <div class="service-number">
-                <h1>06</h1>
-              </div>
-              <div class="service-content">
-                <h4>Hosting Services</h4>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                </p>
-                <a href="service.html"
-                  >Read More<i class="bi bi-arrow-right"></i
-                ></a>
+                <div class="footer-widget-menu">
+                  <ul>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Company intranets
+                      & departmental team sites
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Document
+                      libraries with full version control
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Policy,
+                      compliance & knowledge management
+                    </li>
+                    <li>
+                      <i class="bi bi-arrow-right-circle"></i> Deep integration
+                      with Power Apps & Automate
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -553,28 +1196,82 @@
     <!--==================================================-->
     <!-- Start TechCom Portfolio Area  Style Two-->
     <!--==================================================-->
-    <div class="portfolio-area style-two">
+    <div id="ourProcess" class="portfolio-area style-two">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-12 text-center pb-5">
+        <div class="row">
+          <div class="col-lg-12 text-center pb-0">
             <div class="section-title center style-two">
-              <h4>IT Support For Business</h4>
-              <h1>Ensuring Your Success Trusted</h1>
-              <h1>IT Services Source</h1>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+              <h4>Our Process</h4>
+              <h1>From First Conversation to Go-Live</h1>
+              <h1>— Without the Chaos</h1>
+              <p class="mx-auto w-75">
+                Whether you're a 10-person SMB or a 10,000-person government
+                agency, our proven delivery approach keeps you in control, on
+                budget, and never guessing what happens next.
               </p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="container pb-5 mb-5">
+        <div class="row">
+          <div class="col-auto px-0 divider"></div>
+
+          <div class="col processSet">
+            <p class="h1">01</p>
+            <p class="h4">Free Discovery Call</p>
+            <p class="">
+              We listen first. No sales pitch — just the right questions to
+              understand your operations, pain points, and goals.
+            </p>
+          </div>
+
+          <div class="col-auto px-0 divider"></div>
+
+          <div class="col processSet">
+            <p class="h1">02</p>
+            <p class="h4">Solution Blueprint</p>
+            <p class="">
+              A clear, jargon-free proposal — scope, timeline, cost, and
+              expected ROI — agreed and signed before any work begins.
+            </p>
+          </div>
+
+          <div class="col-auto px-0 divider"></div>
+
+          <div class="col processSet">
+            <p class="h1">03</p>
+            <p class="h4">Agile Build & Review</p>
+            <p class="">
+              We build in focused sprints with your team's feedback at every
+              stage. No surprises, no scope creep, no wasted effort.
+            </p>
+          </div>
+
+          <div class="col-auto px-0 divider"></div>
+
+          <div class="col processSet">
+            <p class="h1">04</p>
+            <p class="h4">Deploy & Train</p>
+            <p class="">
+              We go live, train your people, and hand over full documentation —
+              so your team is confident and self-sufficient from day one.
+            </p>
+          </div>
+
+          <div class="col-auto px-0 divider"></div>
+
+          <div class="col processSet">
+            <p class="h1">05</p>
+            <p class="h4">Support & Scale</p>
+            <p class="">
+              Flexible ongoing support packages to keep your solution live,
+              compliant, and evolving as your organisation grows.
+            </p>
+          </div>
+
+          <div class="col-auto px-0 divider"></div>
         </div>
       </div>
 
@@ -658,16 +1355,99 @@
     <!-- Start TechCom Working Process Area  Style Two-->
     <!--==================================================-->
     <div class="working-proces-area style-two">
-      <div class="container">
+      <div class="container-fluid px-5">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <div class="section-title center style-two">
-              <h4>Working Process</h4>
-              <h1>We Follow the Easy Working Steps</h1>
+            <div class="section-title center style-two mb-3">
+              <h4>Client Stories</h4>
+              <h1>Real Results. Every Audience. Every Time.</h1>
+              <p class="text-white">
+                Here's what clients across all four segments say about working
+                with us.
+              </p>
             </div>
           </div>
         </div>
-        <div class="row">
+
+        <div class="testi-grid">
+          <div class="testi-card">
+            <span class="testi-tag tag-smb">Small Business</span>
+            <div class="testi-text">
+              "As a 12-person team, we assumed automation was only for big
+              companies. They built us a Power Automate approval flow and a
+              SharePoint document hub in under 3 weeks. Admin time cut in half —
+              ROI visible within the first month."
+            </div>
+            <div class="testi-author">
+              <div class="testi-avatar av-smb">JK</div>
+              <div>
+                <div class="testi-name">James K.</div>
+                <div class="testi-role">
+                  Director, Construction &amp; Project Management Firm
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <span class="testi-tag tag-ent">Enterprise</span>
+            <div class="testi-text">
+              "We had four departments on four different systems with no unified
+              reporting. PowerForge consolidated everything into a Power BI
+              enterprise model and automated our cross-department data. What
+              took 3 days now takes 10 minutes."
+            </div>
+            <div class="testi-author">
+              <div class="testi-avatar av-ent">SR</div>
+              <div>
+                <div class="testi-name">Sarah R.</div>
+                <div class="testi-role">
+                  Head of Digital Transformation, 800-Person Logistics Group
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <span class="testi-tag tag-gov">Government</span>
+            <div class="testi-text">
+              "Our team was still processing citizen applications on paper
+              forms. PowerForge delivered a fully compliant Power Apps solution
+              inside our sovereign tenant. Application processing time dropped
+              by 70% — and staff morale improved."
+            </div>
+            <div class="testi-author">
+              <div class="testi-avatar av-gov">MP</div>
+              <div>
+                <div class="testi-name">Michael P.</div>
+                <div class="testi-role">
+                  ICT Manager, Regional Government Agency
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <span class="testi-tag tag-nonprofit">Non-Profit</span>
+            <div class="testi-text">
+              "Donor impact reporting used to take our team two full weeks every
+              quarter. With Power BI and Power Automate, it now runs overnight
+              and lands in our CEO's inbox every Monday morning. It's been
+              transformational for us."
+            </div>
+            <div class="testi-author">
+              <div class="testi-avatar av-nonprofit">AL</div>
+              <div>
+                <div class="testi-name">Amara L.</div>
+                <div class="testi-role">
+                  Operations Lead, Community Health Non-Profit
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-none">
           <div class="col-lg-4 col-md-6">
             <div class="working-process-box before-transprent after-transprent">
               <div class="process-thumb">
@@ -729,128 +1509,100 @@
     <!--==================================================-->
     <!-- Start TechCom Testimonial Area Style One-->
     <!--==================================================-->
-    <div class="testimonial-area style-one">
+    <div id="why" class="testimonial-area style-one">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <div class="section-title center style-two">
-              <h4>Testimonial</h4>
-              <h1>Customer’s Awesome Feedback</h1>
-              <h1>About Our Services</h1>
+              <h4>Why PowerForge</h4>
+              <h1>Power Platform Is All We Do</h1>
+              <h1>and That Makes All the Difference.</h1>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="testi-list-1 owl-carousel">
-            <div class="col-lg-12 text-center">
-              <div class="single-testimonial-box">
-                <div class="testi-desc">
+          <div class="why-grid">
+            <div class="why-left">
+              <div class="point">
+                <div class="why-icon">🎯</div>
+                <div class="why-text">
+                  <h4>Deep Specialisation — Not a Generalist Agency</h4>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
+                    We don't do a bit of everything. Power Platform and
+                    SharePoint is our entire focus — which means faster
+                    delivery, fewer mistakes, and solutions built to last and
+                    scale.
                   </p>
                 </div>
-                <div class="testi-rating">
-                  <ul>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                  </ul>
+              </div>
+
+              <div class="point">
+                <div class="why-icon">📐</div>
+                <div class="why-text">
+                  <h4>Solutions Sized to Your Organisation</h4>
+                  <p>
+                    Our delivery model, governance, and pricing adapts to your
+                    size and complexity — whether you're a 5-person SMB, a
+                    5,000-person enterprise, a government department, or a
+                    non-profit on a shoestring budget.
+                  </p>
                 </div>
-                <div class="testi-author">
-                  <h4>Placeholder Name</h4>
-                  <p>Designation here</p>
+              </div>
+
+              <div class="point">
+                <div class="why-icon">🔒</div>
+                <div class="why-text">
+                  <h4>Built Inside Your Tenant — Secure by Design</h4>
+                  <p>
+                    Everything we build lives inside your existing Microsoft 365
+                    environment. No third-party data exposure, no compliance
+                    surprises — whether you're a startup or a sovereign
+                    government agency.
+                  </p>
+                </div>
+              </div>
+
+              <div class="point">
+                <div class="why-icon">🤝</div>
+                <div class="why-text">
+                  <h4>We Build for Self-Sufficiency, Not Dependency</h4>
+                  <p>
+                    Every project ends with trained staff, clean documentation,
+                    and full confidence to maintain and grow your solutions — so
+                    you're never locked into us for every small change.
+                  </p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-12 text-center">
-              <div class="single-testimonial-box">
-                <div class="testi-desc">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </p>
-                </div>
-                <div class="testi-rating">
-                  <ul>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                  </ul>
-                </div>
-                <div class="testi-author">
-                  <h4>Placeholder Name</h4>
-                  <p>Designation here</p>
+
+            <div class="why-right">
+              <h3>📈 By the Numbers</h3>
+              <div class="right-stat">
+                <div class="right-stat-num">80%</div>
+                <div class="right-stat-label">
+                  Average reduction in manual processing time across all client
+                  types and sectors
                 </div>
               </div>
-            </div>
-            <div class="col-lg-12 text-center">
-              <div class="single-testimonial-box">
-                <div class="testi-desc">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </p>
-                </div>
-                <div class="testi-rating">
-                  <ul>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                  </ul>
-                </div>
-                <div class="testi-author">
-                  <h4>Placeholder Name</h4>
-                  <p>Designation here</p>
+              <div class="right-stat">
+                <div class="right-stat-num">2–6 wks</div>
+                <div class="right-stat-label">
+                  Typical time from signed agreement to go-live, depending on
+                  scope and complexity
                 </div>
               </div>
-            </div>
-            <div class="col-lg-12 text-center">
-              <div class="single-testimonial-box">
-                <div class="testi-desc">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </p>
+              <div class="right-stat">
+                <div class="right-stat-num">50+</div>
+                <div class="right-stat-label">
+                  Solutions delivered across SMB, enterprise, government, and
+                  non-profit organisations
                 </div>
-                <div class="testi-rating">
-                  <ul>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                    <li><i class="bi bi-star-fill"></i></li>
-                  </ul>
-                </div>
-                <div class="testi-author">
-                  <h4>Placeholder Name</h4>
-                  <p>Designation here</p>
+              </div>
+              <div class="right-stat">
+                <div class="right-stat-num">$0</div>
+                <div class="right-stat-label">
+                  New software licences required — everything runs on your
+                  existing Microsoft 365
                 </div>
               </div>
             </div>
@@ -863,317 +1615,70 @@
     <!--==================================================-->
 
     <!--==================================================-->
-    <!-- Start TechCom Video Area Style Two-->
+    <!-- Start Industries Style One-->
     <!--==================================================-->
-    <div class="video-area style-two">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <div class="section-title center style-two">
-              <h4>Watch Now</h4>
-              <h1>Our Best Working Process System</h1>
-              <h1>with Team Expert Leaders</h1>
-            </div>
-          </div>
-          <div class="col-lg-12">
-            <div class="video-button">
-              <a
-                class="video-vemo-icon venobox vbox-item"
-                data-vbtype="youtube"
-                data-autoplay="true"
-                href="https://www.youtube.com/watch?v=A4CbAkPb468"
-                ><i class="bi bi-play-fill"></i
-              ></a>
-            </div>
-          </div>
-        </div>
+    <section class="industries-section">
+      <div class="section-label">Industries &amp; Sectors</div>
+      <h2 class="section-title">If You Run on Microsoft 365 — We Can Help.</h2>
+      <p class="section-sub">
+        We've delivered Power Platform and SharePoint solutions across a wide
+        range of industries and organisational types — private sector, public
+        sector, and everything in between.
+      </p>
+      <div class="industry-pills">
+        <span class="pill">🏗️ Construction &amp; Trades</span>
+        <span class="pill">🏥 Healthcare &amp; Allied Health</span>
+        <span class="pill">⚖️ Legal &amp; Professional Services</span>
+        <span class="pill">🛒 Retail &amp; Wholesale</span>
+        <span class="pill">🏭 Manufacturing &amp; Industrial</span>
+        <span class="pill">🚚 Logistics &amp; Transport</span>
+        <span class="pill">🏛️ Government &amp; Public Sector</span>
+        <span class="pill">🌍 Non-Profit &amp; Charities</span>
+        <span class="pill">🎓 Education &amp; Training</span>
+        <span class="pill">🧾 Accounting &amp; Finance</span>
+        <span class="pill">🏢 Property &amp; Real Estate</span>
+        <span class="pill">💼 HR &amp; Recruitment</span>
+        <span class="pill">📦 E-Commerce &amp; Distribution</span>
+        <span class="pill">🍽️ Hospitality &amp; Events</span>
+        <span class="pill">🧪 Pharma &amp; Life Sciences</span>
       </div>
-    </div>
-    <!--==================================================-->
-    <!-- End TechCom Video Area Style Two-->
-    <!--==================================================-->
+    </section>
 
     <!--==================================================-->
-    <!-- Start TechCom contact info Area Style Two-->
+    <!-- Start CTA Section Style One-->
     <!--==================================================-->
-    <div class="contact-info-area style-two">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="contact-info-box">
-              <div class="contact-info-icon">
-                <i class="fa-solid fa-phone"></i>
-              </div>
-              <div class="contact-info-content">
-                <h4>Call us Any time</h4>
-                <p>+91 90141 82015</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="contact-info-box">
-              <div class="contact-info-icon">
-                <i class="fa-regular fa-envelope"></i>
-              </div>
-              <div class="contact-info-content">
-                <h4>Send E-Mail</h4>
-                <p>info@gmail.com</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="contact-info-box">
-              <div class="contact-info-icon">
-                <i class="fa-regular fa-clock"></i>
-              </div>
-              <div class="contact-info-content">
-                <h4>Office Address</h4>
-                <p>Gachibowli, Telangana</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--==================================================-->
-    <!-- End TechCom contact info Area Style Two-->
-    <!--==================================================-->
+    <section id="contact" class="cta-section">
+      <h2>
+        Whatever Your Size or Sector —<br /><span style="color: #00b4d8"
+          >Let's Solve It Together.</span
+        >
+      </h2>
+      <p>
+        Book a free 30-minute strategy call. Tell us who you are and what's
+        slowing your team down — we'll show you exactly where Power Platform can
+        make the biggest difference, with no jargon and no obligation.
+      </p>
 
-    <!--==================================================-->
-    <!-- Start TechCom Pricing Area Style Two-->
-    <!--==================================================-->
-    <div class="pricing-area style-two">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-12">
-            <div class="section-title left style-two">
-              <h4>Our FAQ's</h4>
-              <h1>Frequently Asked Questions</h1>
-              <h1>Placeholding</h1>
-            </div>
-            <div class="faqs-container">
-              <div class="faq-singular">
-                <h2 class="faq-question">
-                  FAQ Placeholding content Lorem Ipsum is simply dummy text of
-                  the?
-                </h2>
-                <div class="faq-answer">
-                  <div class="desc">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </div>
-                </div>
-              </div>
-              <div class="faq-singular">
-                <h2 class="faq-question">
-                  FAQ Placeholding content Lorem Ipsum is simply dummy text of
-                  the?
-                </h2>
-                <div class="faq-answer">
-                  <div class="desc">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </div>
-                </div>
-              </div>
-              <div class="faq-singular">
-                <h2 class="faq-question">
-                  FAQ Placeholding content Lorem Ipsum is simply dummy text of
-                  the?
-                </h2>
-                <div class="faq-answer">
-                  <div class="desc">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </div>
-                </div>
-              </div>
-              <div class="faq-singular">
-                <h2 class="faq-question">
-                  FAQ Placeholding content Lorem Ipsum is simply dummy text of
-                  the?
-                </h2>
-                <div class="faq-answer">
-                  <div class="desc">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </div>
-                </div>
-              </div>
-
-              <div class="faq-singular">
-                <h2 class="faq-question">
-                  FAQ Placeholding content Lorem Ipsum is simply dummy text of
-                  the?
-                </h2>
-                <div class="faq-answer">
-                  <div class="desc">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </div>
-                </div>
-              </div>
-              <div class="faq-singular">
-                <h2 class="faq-question">
-                  FAQ Placeholding content Lorem Ipsum is simply dummy text of
-                  the?
-                </h2>
-                <div class="faq-answer">
-                  <div class="desc">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </div>
-                </div>
-              </div>
-              <div class="faq-singular">
-                <h2 class="faq-question">
-                  FAQ Placeholding content Lorem Ipsum is simply dummy text of
-                  the?
-                </h2>
-                <div class="faq-answer">
-                  <div class="desc">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </div>
-                </div>
-              </div>
-              <div class="faq-singular">
-                <h2 class="faq-question">
-                  FAQ Placeholding content Lorem Ipsum is simply dummy text of
-                  the?
-                </h2>
-                <div class="faq-answer">
-                  <div class="desc">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="cta-form">
+        <input class="cta-input" type="text" placeholder="Your Name" />
+        <input class="cta-input" type="email" placeholder="Work Email" />
+        <select class="cta-select">
+          <option value="" disabled="" selected="">Organisation Type</option>
+          <option>Small / Medium Business</option>
+          <option>Large Enterprise</option>
+          <option>Government Agency</option>
+          <option>Non-Profit Organisation</option>
+        </select>
+        <button class="cta-submit">Book My Free Call →</button>
       </div>
-    </div>
-    <!--==================================================-->
-    <!-- End TechCom Pricng info Area Style Two-->
-    <!--==================================================-->
 
-    <!--==================================================-->
-    <!-- Start TechCom Blog Area Style One-->
-    <!--==================================================-->
-    <div class="blog-area style-one home-two">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <div class="section-title center style-two">
-              <h4>Placeholding</h4>
-              <h1>Placeholding content for heading</h1>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
-              </p>
-            </div>
-          </div>
-        </div>
+      <div class="trust-badges">
+        <span class="trust-item">Free 30-min strategy session</span>
+        <span class="trust-item">No commitment required</span>
+        <span class="trust-item">All organisation types welcome</span>
+        <span class="trust-item">Response within 24 hours</span>
       </div>
-    </div>
-    <!--==================================================-->
-    <!-- End TechCom Blog Area Style One-->
-    <!--==================================================-->
-
-    <!--==================================================-->
-    <!-- Start TechCom Brand Area Style Two-->
-    <!--==================================================-->
-    <div class="brand-area style-two">
-      <div class="container">
-        <div class="row">
-          <div class="brand-list-1 owl-carousel">
-            <div class="col-lg-12">
-              <div class="single-brand-box">
-                <div class="brand-thumb">
-                  <img src="images/brand-1.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="single-brand-box">
-                <div class="brand-thumb">
-                  <img src="images/brand-2.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="single-brand-box">
-                <div class="brand-thumb">
-                  <img src="images/brand-3.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="single-brand-box">
-                <div class="brand-thumb">
-                  <img src="images/brand-4.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="single-brand-box">
-                <div class="brand-thumb">
-                  <img src="images/brand-5.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--==================================================-->
-    <!-- End TechCom Brand Area Style Two-->
-    <!--==================================================-->
+    </section>
 
     <!--==================================================-->
     <!-- Start TechCom Footer Area Style One-->
@@ -1296,23 +1801,27 @@
             <a href="index.html"><img src="images/logo-2.png" alt="" /></a>
           </div>
           <div class="col-12 text-center">
-            <a href="index.html" class="btn btn-primary"
+            <a href="#home" class="btn btn-primary"
               ><i class="bi bi-arrow-right-circle me-2"></i>Home</a
             >
 
-            <a href="about.html" class="btn btn-primary"
-              ><i class="bi bi-arrow-right-circle me-2"></i>About</a
+            <a href="#whoWeServe" class="btn btn-primary"
+              ><i class="bi bi-arrow-right-circle me-2"></i>Who We Serve</a
             >
 
-            <a href="service.html" class="btn btn-primary"
+            <a href="#ourService" class="btn btn-primary"
               ><i class="bi bi-arrow-right-circle me-2"></i>Services</a
             >
 
-            <a href="choose-us.html" class="btn btn-primary"
-              ><i class="bi bi-arrow-right-circle me-2"></i>Why Choose Us</a
+            <a href="#ourProcess" class="btn btn-primary"
+              ><i class="bi bi-arrow-right-circle me-2"></i>Process</a
             >
 
-            <a href="contact.html" class="btn btn-primary"
+            <a href="#why" class="btn btn-primary"
+              ><i class="bi bi-arrow-right-circle me-2"></i>Why Us</a
+            >
+
+            <a href="#contact" class="btn btn-primary"
               ><i class="bi bi-arrow-right-circle me-2"></i>Contact Us</a
             >
           </div>

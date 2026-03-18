@@ -1047,7 +1047,7 @@
    <!--TechCom Testimonial Area Css Style One-->
 =========================================================---*/
 .style-one.testimonial-area {
-    background: url(../images/testi-bg_1.jpg);
+    /* background: url(../images/testi-bg_1.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1589,9 +1589,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 800px;
+    min-height: 100vh;
     overflow: hidden;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 
 .style-two .hero-content h4 {
@@ -1826,8 +1826,10 @@
 =========================================================---*/
 .style-two.about-area {
     background: #F3F7FD;
-    padding: 380px 0 126px;
-    margin-top: -287px;
+    /* padding: 380px 0 126px; */
+    /* margin-top: -287px; */
+    padding: 80px 0 126px;
+    margin-top: 0px;
 }
 
 .style-two.about-area .toptech-button a {
@@ -1990,6 +1992,7 @@
     z-index: 1;
     margin-bottom: 25px;
     border-radius: 5px;
+    height: 93vh;
 }
 
 .style-two .single-services-box:before {
@@ -2057,7 +2060,7 @@
 
 .style-two .service-content h4 {
     font-size: 26px;
-    line-height: 50px;
+    line-height: normal;
     color: #041424;
     font-weight: 700;
     margin: 16px 0 12px 0;
@@ -2078,6 +2081,23 @@
 
 .style-two .single-services-box:hover 
 .service-content p{
+    color:#fff;
+}
+
+.style-two .service-content .footer-widget-menu i  {
+    display: inline-block;
+    color: inherit;
+    font-size: inherit;
+    transition: 0.5s;
+}
+
+.style-two .single-services-box:hover .service-content .footer-widget-menu i {
+    left: 0px;
+    position: relative;
+    color:#fff;
+}
+
+.style-two .single-services-box:hover .service-content .footer-widget-menu ul li {
     color:#fff;
 }
 
@@ -2299,6 +2319,38 @@
     padding: 0 102px;
 }
 
+.style-two.portfolio-area .nav-pills .nav-link {
+    border: solid 1px #adadad;
+    background-color: white;
+    color: #454545;
+}
+
+.style-two.portfolio-area .nav-pills .nav-link.active {
+    border: solid 1px #0d6efd;
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.style-two.portfolio-area .processSet {
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+.style-two.portfolio-area .processSet .h1 {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 55px;
+}
+
+.style-two.portfolio-area .processSet .h4 {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 24px;
+    color: #0c5adb;
+}
+
+.divider {
+    border-left: solid 1px grey;
+    height: 250px;
+}
 
 /* portfolio menu */
 .style-two .portfolio_menu {
@@ -2409,14 +2461,382 @@
     opacity: 1;
 }
 
+/*---=====================================================
+   <!--Client Stories Css Home Two-->
+=========================================================---*/
+.testi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
 
+.testi-card {
+    background: #0c1e38;
+    border: 1px solid rgb(0 180 216 / 15%);
+    border-radius: 14px;
+    padding: 2rem;
+    position: relative;
+}
+
+.testi-card::before {
+    content: '"';
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    font-size: 4rem;
+    color: #00b4d8;
+    opacity: .15;
+    font-family: Georgia, serif;
+    line-height: 1;
+}
+
+.testi-tag {
+    display: inline-block;
+    padding: .2rem .7rem;
+    border-radius: 999px;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tag-smb {
+    background: rgba(0, 180, 216, .15);
+    color: #00b4d8;
+}
+
+.testi-text {
+    font-size: .95rem;
+    color: #fff;
+    line-height: 1.75;
+    margin-top: .4rem;
+}
+
+.testi-author {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+}
+
+.testi-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: .85rem;
+    flex-shrink: 0;
+    color: #ffffff;
+}
+
+.av-smb {
+    background: linear-gradient(135deg, #0078d4, #00b4d8);
+}
+
+.testi-name {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: .93rem;
+}
+
+.testi-role {
+    font-size: .78rem;
+    color: #7a93b8;
+}
+
+.tag-ent {
+    background: rgba(0, 120, 212, .15);
+    color: #5ab4ff;
+}
+
+.tag-gov {
+    background: rgba(244, 185, 66, .12);
+    color: #f4b942;
+}
+
+.tag-nonprofit {
+    background: rgba(0, 212, 170, .12);
+    color: #00d4aa;
+}
+
+.av-ent {
+    background: linear-gradient(135deg, #1a3a6b, #0078d4);
+}
+
+.av-gov {
+    background: linear-gradient(135deg, #6b4e1a, #f4b942);
+}
+
+.av-nonprofit {
+    background: linear-gradient(135deg, #0a5040, #00d4aa);
+}
+
+
+/*---=====================================================
+   <!--WHY US Css Home Two-->
+=========================================================---*/
+.why-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+    margin-top: 3rem;
+}
+
+.why-left .point {
+    display: flex;
+    gap: 1.2rem;
+    margin-bottom: 1.8rem;
+    align-items: flex-start;
+}
+
+.why-icon {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    background: rgba(0, 120, 212, .15);
+    border: 1px solid rgba(0, 120, 212, .3);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.why-text h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: .25rem;
+    margin-top: 0;
+}
+
+.why-text p {
+    color: #7a93b8;
+    font-size: .9rem;
+}
+
+
+.why-right {
+    background: #0c1e38;
+    border: 1px solid rgb(0 180 216 / 15%);
+    border-radius: 16px;
+    padding: 2.5rem;
+}
+
+.why-right h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+}
+
+.right-stat {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 1.4rem;
+    padding-bottom: 1.4rem;
+    border-bottom: 1px solid #00b4d826;
+}
+
+.right-stat-num {
+    font-family: 'Syne', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #00b4d8;
+    flex-shrink: 0;
+    min-width: 80px;
+}
+
+.right-stat-label {
+    font-size: .9rem;
+    color: #7a93b8;
+}
+
+
+
+/*---=====================================================
+   <!--Industries Section Css Home Two-->
+=========================================================---*/
+.industries-section {
+    background: #091428;
+    padding: 6rem 8%;
+    position: relative;
+
+    .section-label {
+        font-size: .78rem;
+        font-weight: 700;
+        letter-spacing: .2em;
+        text-transform: uppercase;
+        color: #00b4d8;
+        margin-bottom: .8rem;
+    }
+
+    .section-title {
+        font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+        font-weight: 800;
+        max-width: 22ch;
+        color: #ffffff;
+    }
+
+    .section-sub {
+        color: #7a93b8;
+        max-width: 560px;
+        margin-top: .9rem;
+        line-height: 1.8;
+    }
+
+    .industry-pills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: .8rem;
+        margin-top: 2.5rem;
+
+        .pill {
+            padding: .55rem 1.3rem;
+            background: #0c1e38;
+            border: 1px solid #00b4d826;
+            border-radius: 999px;
+            font-size: .88rem;
+            transition: border-color .2s, color .2s;
+            color: #ffffff;
+        }
+    }
+}
+
+/*---=====================================================
+   <!--CTA Section Css Home Two-->
+=========================================================---*/
+.cta-section {
+    background: linear-gradient(135deg, rgb(9 20 40) 0%, #071b3a 100%);
+    border-top: 1px solid #00b4d826;
+    text-align: center;
+    padding: 7rem 5%;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-section h2 {
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-weight: 800;
+    position: relative;
+    color: #00b4d8;
+}
+
+.cta-section p {
+    color: #7a93b8;
+    max-width: 560px;
+    margin: 1.2rem auto 0;
+    font-size: 1.05rem;
+    position: relative;
+}
+
+.cta-form {
+    display: flex;
+    gap: .8rem;
+    justify-content: center;
+    margin-top: 2.5rem;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.cta-input, .cta-select {
+    background: rgba(255, 255, 255, .06);
+    border: 1px solid rgba(255, 255, 255, .15);
+    border-radius: 8px;
+    padding: .85rem 1.2rem;
+    color: #f0f6ff;
+    font-size: .95rem;
+    font-family: 'DM Sans', sans-serif;
+    outline: none;
+    transition: border-color .2s;
+}
+
+.cta-input {
+    width: 210px;
+}
+
+.cta-select {
+    cursor: pointer;
+}
+
+.cta-input:focus, .cta-select:focus {
+    border-color: #00b4d8;
+}
+
+.cta-select option {
+    background: #091428;
+    color: #f0f6ff;
+}
+
+.cta-submit {
+    background: linear-gradient(135deg, #0078d4, #00b4d8);
+    color: #fff;
+    padding: .85rem 2rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: .95rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(0, 120, 212, .3);
+    transition: transform .2s, box-shadow .2s;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.cta-submit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(0, 120, 212, .5);
+}
+
+.nav-cta {
+    background: #0078d4;
+    color: #fff;
+    padding: .55rem 1.4rem;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: .9rem;
+    transition: background .2s, transform .2s;
+}
+
+.nav-cta:hover {
+    background: #00b4d8;
+    transform: translateY(-1px);
+}
+
+.trust-badges {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.trust-item {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: .82rem;
+    color: #7a93b8;
+}
+
+.trust-item::before {
+    content: '✓';
+    color: #00d4aa;
+    font-weight: 700;
+}
 
 /*---=====================================================
    <!--TechCom Portfolio Area Css Home Two-->
 =========================================================---*/
 .style-two.working-proces-area {
     background: #021533;
-    padding: 247px 0 90px;
+    padding: 100px 0 90px;
     margin-top: -163px;
 }
 
@@ -6420,6 +6840,16 @@ button.icons {
     top: 9px;
     background: #0c5adb;
     border-radius: 50%;
+}
+
+.inner-style .choose-us-thumb {
+    background-color: #00004A;
+    padding: 3rem 3.5rem;
+    border-radius: 8px;
+}
+
+.inner-style .choose-us-thumb p {
+    color: #ffffff;
 }
 
 .inner-style .choose-us-thumb img {
