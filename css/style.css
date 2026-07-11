@@ -1512,6 +1512,13 @@
     margin-bottom: 0;
 }
 
+.header-area.style-two .header-logo a {
+    color: #ffffff;
+    font-family: 'Merriweather';
+    font-weight: 800;
+    font-size: x-large;
+}
+
 .header-search-icon {
     display: inline-block;
     margin-right: 34px;
@@ -1531,13 +1538,17 @@
     font-weight: 600;
     font-size: 16px;
     text-transform: capitalize;
-    color: #000048;
+    color: #ffffff;
     font-family: 'Nunito';
     transition: 0.5s;
 }
 
 .style-two .header-menu ul li a:hover{
     color:#0c5adb ;
+}
+
+.style-two.sticky .header-menu ul li a {
+    padding: 20px 0;
 }
 
 .style-two .header-button a {
@@ -1572,8 +1583,8 @@
     top: 0;
     width: 100%;
     -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
-    background: #fff !important;
+    box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 1);
+    background: #001c3c !important;
     transition: 0.5s;
     z-index: 999 !important;
     -webkit-animation: 300ms running fadeInDown;
@@ -1585,10 +1596,10 @@
    <!--TechCom hero Area Home Two All Css-->
 =========================================================---*/
 .style-two.hero-area {
-    background: url(../images/hero-bg.png);
+    /* background: url(../images/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
     min-height: 100vh;
     overflow: hidden;
     padding-bottom: 50px;
@@ -1596,32 +1607,32 @@
 
 .style-two .hero-content h4 {
     margin: 0 0 3px;
-    font-size: 19px;
+    font-size: 15px;
     line-height: 45px;
-    text-transform: uppercase;
-    color: #ffffff;
+    /* text-transform: uppercase; */
+    color: #00b4d8;
     font-weight: 500;
-    font-family: "Rajdhani";
+    font-family: "DM Sans", sans-serif;
 }
 
 .style-two .hero-content h1 {
-    font-size: 70px;
-    text-transform: uppercase;
+    font-size: 60px;
+    /* text-transform: uppercase; */
     color: #ffffff;
     line-height: 74px;
-    font-weight: 700;
-    font-family: "Rajdhani";
+    font-weight: 600;
+    font-family: "Merriweather";
 }
 
 .style-two .hero-content p {
     color: #B6B9C0;
-    width: 72%;
+    width: 85%;
     font-size: 18px;
     margin: 11px 0 0;
 }
 
 .style-two .hero-button{
-    margin-top: 49px;
+    margin-top: 30px;
 }
 
 .style-two .hero-button a {
@@ -1758,9 +1769,9 @@
 }
 
 .style-two.feature-area .single-feature-box:hover .feature-icon:before{
-    background: url(../images/feature-shape-2.png);
+    /* background: url(../images/feature-shape-2.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
 }
 
 .style-two .feature-content h4 {
@@ -1952,32 +1963,35 @@
 
 .style-two.section-title h4 {
     font-size: 18px;
-    color: #0c5adb;
+    color: #7a93b8;
     font-weight: 600;
     margin: 0 0 24px;
 }
 
 .style-two.section-title h1 {
     font-size: 42px;
-    color: #041424;
-    font-weight: 700;
+    color: #ffffff;
+    font-weight: 600;
     line-height: 40px;
+    font-family: 'Merriweather';
 }
 
 .style-two.section-title p {
     margin: 19px 0 0;
 }
 
-
+.col-light-blue {
+    color: #7a93b8;
+}
 
 /*---=====================================================
    <!--TechCom Service Area Home two Css-->
 =========================================================---*/
 .style-two.service-area {
-    background: url(../images/service-bg.png);
+    /* background: url(../images/service-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
     padding: 120px 0 100px;
 }
 
@@ -1987,7 +2001,8 @@
 
 .style-two .single-services-box {
     padding: 37px 0 30px 40px;
-    background-color: #fff;
+    background-color: rgb(18 45 84 / 85%);
+    border: solid 1px rgb(53 85 131);
     position: relative;
     z-index: 1;
     margin-bottom: 25px;
@@ -2002,7 +2017,7 @@
     top:0;
     width:0;
     height:100%;
-    background: #0B5ADB;
+    background: #00b4d8;
     transition: .5s;
     z-index: -1;
     border-radius: 5px;
@@ -2031,7 +2046,7 @@
 }
 
 .style-two .single-services-box:hover .service-icon-thumb:before{
-    background: #2F73E0;
+    background: #00b4d8;
 }
 
 .service-icon-thumb img{
@@ -2059,12 +2074,13 @@
 }
 
 .style-two .service-content h4 {
-    font-size: 26px;
+    font-size: 18px;
     line-height: normal;
-    color: #041424;
-    font-weight: 700;
+    color: #00b4d8;
+    font-weight: 600;
     margin: 16px 0 12px 0;
     transition: 0.5s;
+    font-family: 'Merriweather';
 }
 
 .style-two .single-services-box:hover 
@@ -2076,7 +2092,7 @@
 .style-two .service-content p {
     margin: 0 0 24px;
     transition: 0.5s;
-    color: #686868;
+    color: #7a93b8;
 }
 
 .style-two .single-services-box:hover 
@@ -2120,6 +2136,10 @@
     color: #0B59DB;
     font-size: 22px;
     transition: 0.5s;
+}
+
+.style-two .service-content .footer-widget-menu ul li {
+    color: #7a93b8;
 }
 
 .style-two .single-services-box:hover .service-content i {
@@ -2308,10 +2328,10 @@
    <!--TechCom Portfolio Area Css Home Two-->
 =========================================================---*/
 .style-two.portfolio-area {
-    background: url(../images/portfolio-bg.jpg);
+    /* background: url(../images/portfolio-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
     padding: 118px 0 100px;
 }
 
@@ -2320,14 +2340,17 @@
 }
 
 .style-two.portfolio-area .nav-pills .nav-link {
-    border: solid 1px #adadad;
-    background-color: white;
-    color: #454545;
+    border: solid 1px #7a93b8;
+    background-color: transparent;
+    color: #7a93b8;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 600;
 }
 
 .style-two.portfolio-area .nav-pills .nav-link.active {
-    border: solid 1px #0d6efd;
-    background-color: #0d6efd;
+    border: solid 1px #00b4d8;
+    background-color: #00b4d8;
     color: #ffffff;
 }
 
@@ -2339,16 +2362,17 @@
 .style-two.portfolio-area .processSet .h1 {
     font-family: "Rajdhani", sans-serif;
     font-size: 55px;
+    color: #00b4d8;
 }
 
 .style-two.portfolio-area .processSet .h4 {
     font-family: "Rajdhani", sans-serif;
     font-size: 24px;
-    color: #0c5adb;
+    color: #00b4d8;
 }
 
 .divider {
-    border-left: solid 1px grey;
+    border-left: solid 1px rgb(53 85 131);
     height: 250px;
 }
 
@@ -2610,9 +2634,11 @@
 
 .why-text h4 {
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: .25rem;
     margin-top: 0;
+    font-family: 'Merriweather';
+    color: white;
 }
 
 .why-text p {
@@ -2645,9 +2671,9 @@
 }
 
 .right-stat-num {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     font-size: 2rem;
-    font-weight: 800;
+    font-weight: 600;
     color: #00b4d8;
     flex-shrink: 0;
     min-width: 80px;
@@ -2664,7 +2690,7 @@
    <!--Industries Section Css Home Two-->
 =========================================================---*/
 .industries-section {
-    background: #091428;
+    /* background: #091428; */
     padding: 6rem 8%;
     position: relative;
 
@@ -2679,9 +2705,10 @@
 
     .section-title {
         font-size: clamp(1.8rem, 3.5vw, 2.6rem);
-        font-weight: 800;
+        font-weight: 600;
         max-width: 22ch;
         color: #ffffff;
+        font-family: 'Merriweather';
     }
 
     .section-sub {
@@ -2699,7 +2726,7 @@
 
         .pill {
             padding: .55rem 1.3rem;
-            background: #0c1e38;
+            /* background: #0c1e38; */
             border: 1px solid #00b4d826;
             border-radius: 999px;
             font-size: .88rem;
@@ -2713,8 +2740,8 @@
    <!--CTA Section Css Home Two-->
 =========================================================---*/
 .cta-section {
-    background: linear-gradient(135deg, rgb(9 20 40) 0%, #071b3a 100%);
-    border-top: 1px solid #00b4d826;
+    /* background: linear-gradient(135deg, rgb(9 20 40) 0%, #071b3a 100%); */
+    /* border-top: 1px solid #00b4d826; */
     text-align: center;
     padding: 7rem 5%;
     position: relative;
@@ -2723,9 +2750,10 @@
 
 .cta-section h2 {
     font-size: clamp(2rem, 4vw, 3.2rem);
-    font-weight: 800;
+    font-weight: 600;
     position: relative;
-    color: #00b4d8;
+    color: #ffffff;
+    font-family: 'Merriweather';
 }
 
 .cta-section p {
@@ -2746,9 +2774,9 @@
 }
 
 .cta-input, .cta-select {
-    background: rgba(255, 255, 255, .06);
-    border: 1px solid rgba(255, 255, 255, .15);
-    border-radius: 8px;
+    /* background: rgba(255, 255, 255, .06);
+    border: 1px solid rgba(255, 255, 255, .15); */
+    /* border-radius: 8px; */
     padding: .85rem 1.2rem;
     color: #f0f6ff;
     font-size: .95rem;
@@ -2835,7 +2863,7 @@
    <!--TechCom Portfolio Area Css Home Two-->
 =========================================================---*/
 .style-two.working-proces-area {
-    background: #021533;
+    /* background: #021533; */
     padding: 100px 0 90px;
     margin-top: -163px;
 }
@@ -2847,7 +2875,7 @@
 .style-two.working-proces-area .section-title h1 {
     font-size: 42px;
     color: #ffff;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 40px;
 }
 
@@ -2938,7 +2966,6 @@
     font-size: 16px;
     color: #ffffff;
     font-weight: 400;
-    font-family: "Nunito";
     text-align: center;
     transition: .5s;
 }
@@ -6805,10 +6832,18 @@ button.icons {
 =========================================================---*/
 .choose-us-area.inner-style {
     padding: 124px 0 100px;
-    background: url(../images/choose-us-bg.jpg);
+    /* background: url(../images/choose-us-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
+}
+
+.choose-us-area.inner-style .left p {
+    color: #7a93b8;
+}
+
+.choose-us-area.inner-style .left h1 {
+    font-size: 25px;
 }
 
 .choose-us-area.inner-style .row.add-marging {
@@ -6823,7 +6858,7 @@ button.icons {
 
 .inner-style .single-choose-us-item ul li {
     font-size: 18px;
-    color: #041424;
+    color: #7a93b8;
     font-weight: 400;
     font-family: "Nunito";
     margin-bottom: 19px;
@@ -6867,6 +6902,20 @@ button.icons {
     font-size: 24px;
     font-weight: 600;
     margin: 29px 0 18px;
+}
+
+#whoWeServe .inner-style .choose-us-thumb {
+    background-color: rgb(18 45 84 / 85%);
+    border: solid 1px rgb(53 85 131);
+    padding: 2rem 2.5rem;
+}
+
+#whoWeServe .inner-style .choose-us-thumb h4 {
+    font-family: 'Merriweather';
+}
+
+#whoWeServe .inner-style .choose-us-thumb p {
+    font-size: 13px;
 }
 
 /*---=====================================================
@@ -9166,4 +9215,25 @@ Awards One Css
 .loaded .loader {
     top: -100%;
     opacity: 0;
+}
+
+.new-footer {
+    background: #030a14 !important;
+    border-top: solid 1px rgb(53 85 131);
+    .footer-bottom-area {
+        border-top: none;
+        .logo {
+            a {
+                font-family: 'Merriweather';
+                color: white;
+                font-weight: 600;
+            }
+        }
+        .footer-bottom-content {
+            p {
+                font-size: small;
+                color: #7a93b8;
+            }
+        }
+    }
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Home - TechCom</title>
+    <title>Home - PowerForge</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Favicon -->
@@ -79,12 +79,19 @@
       type="text/css"
       media="all"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
     <!-- odometer CSS -->
     <!-- modernizr js -->
     <script src="js/modernizr-3.5.0.min.js"></script>
   </head>
 
-  <body>
+  <body id="body">
     <!-- loder -->
     <div class="loader-wrapper d-none">
       <span class="loader"></span>
@@ -145,8 +152,10 @@
         <div class="row align-items-center">
           <div class="col">
             <div class="header-logo">
-              <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
-              <!-- <a href="index.html">PowerForge</a> -->
+              <!-- <a href="index.html"><img src="images/logo.png" alt="logo" /></a> -->
+              <a href="index.html"
+                >Power<span class="text-primary">Forge</span></a
+              >
             </div>
           </div>
           <div class="col-lg-auto">
@@ -222,9 +231,11 @@
     <div id="home" class="hero-area style-two d-flex align-items-center">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-8">
+          <div class="col-lg-12">
             <div class="hero-content">
-              <h4 class="mt-4">Microsoft Power Platform — Certified Expert</h4>
+              <h4 class="mt-0 d-none">
+                Microsoft Power Platform — Certified Expert
+              </h4>
               <h1><span class="text-primary">Smarter</span> Operations.</h1>
               <h1>Faster <span class="text-primary">Decisions</span>.</h1>
               <h1><span class="text-primary">Zero</span> Wasted Time.</h1>
@@ -293,13 +304,13 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-2 d-none">
             <div class="hero-right">
               <div class="hero-thumb">
-                <img src="images/hero-thumb.png" alt="" />
+                <!-- <img src="images/hero-thumb.png" alt="" /> -->
               </div>
               <div class="hero-shape">
-                <img src="images/hero-shape.png" alt="" />
+                <!-- <img src="images/hero-shape.png" alt="" /> -->
               </div>
             </div>
           </div>
@@ -473,15 +484,18 @@
     <div id="whoWeServe" class="portfolio-area style-two">
       <div class="container">
         <div class="row mb-5">
-          <div class="col-lg-12 text-center pb-3">
-            <div class="section-title center style-two mb-3">
+          <div class="col-lg-12 pb-3">
+            <div class="section-title style-two mb-3">
               <h4>Who We Serve</h4>
-              <h1>One Platform.</h1>
-              <h1>Solutions for Every Organisation Type.</h1>
-              <p>
+              <h1>One Platform. Solutions for</h1>
+              <h1>Every Organisation Type.</h1>
+              <p class="mb-0 col-light-blue">
                 Select your organisation type below — we'll show you exactly how
-                we solve your specific challenges, what we deliver, and how we
-                do it.
+                we
+              </p>
+              <p class="mt-0 col-light-blue">
+                solve your specific challenges, what we deliver, and how we do
+                it.
               </p>
             </div>
           </div>
@@ -980,12 +994,12 @@
     <div id="ourService" class="service-area style-two">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
+          <div class="col-lg-12">
             <div class="section-title center style-two">
               <h4>Our Services</h4>
               <h1>Five Services. One Ecosystem.</h1>
               <h1>Measurable Results.</h1>
-              <p class="text-white w-75 mx-auto">
+              <p class="w-50">
                 Every solution we build lives inside your existing Microsoft 365
                 environment — no new platforms, no new vendors, and no
                 disruption to how your team works today.
@@ -1199,12 +1213,12 @@
     <div id="ourProcess" class="portfolio-area style-two">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center pb-0">
-            <div class="section-title center style-two">
+          <div class="col-lg-12 pb-0">
+            <div class="section-title style-two">
               <h4>Our Process</h4>
-              <h1>From First Conversation to Go-Live</h1>
-              <h1>— Without the Chaos</h1>
-              <p class="mx-auto w-75">
+              <h1>From First Conversation to</h1>
+              <h1>Go-Live — Without the Chaos</h1>
+              <p class="w-50">
                 Whether you're a 10-person SMB or a 10,000-person government
                 agency, our proven delivery approach keeps you in control, on
                 budget, and never guessing what happens next.
@@ -1357,11 +1371,12 @@
     <div class="working-proces-area style-two">
       <div class="container-fluid px-5">
         <div class="row">
-          <div class="col-lg-12 text-center">
+          <div class="col-lg-12">
             <div class="section-title center style-two mb-3">
               <h4>Client Stories</h4>
-              <h1>Real Results. Every Audience. Every Time.</h1>
-              <p class="text-white">
+              <h1>Real Results. Every Audience.</h1>
+              <h1>Every Time.</h1>
+              <p class="">
                 Here's what clients across all four segments say about working
                 with us.
               </p>
@@ -1512,10 +1527,10 @@
     <div id="why" class="testimonial-area style-one">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
+          <div class="col-lg-12">
             <div class="section-title center style-two">
               <h4>Why PowerForge</h4>
-              <h1>Power Platform Is All We Do</h1>
+              <h1>Power Platform Is All We Do —</h1>
               <h1>and That Makes All the Difference.</h1>
             </div>
           </div>
@@ -1681,9 +1696,43 @@
     </section>
 
     <!--==================================================-->
+    <!-- New Footer Set -->
+    <!--==================================================-->
+    <div class="new-footer footer-area style-one pt-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="footer-bottom-area mt-0">
+            <div class="row">
+              <div class="col-auto">
+                <div class="footer-bottom-content logo">
+                  <a href="index.html"
+                    >Power<span class="text-primary">Forge</span></a
+                  >
+                </div>
+              </div>
+              <div class="col-auto">
+                <div class="footer-bottom-content">
+                  <p>© 2026 PowerForge Solutions. All rights reserved.</p>
+                </div>
+              </div>
+              <div class="col text-end">
+                <div class="footer-bottom-content">
+                  <p>
+                    Microsoft Power Platform Specialists — SMB · Enterprise ·
+                    Government · Non-Profit
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--==================================================-->
     <!-- Start TechCom Footer Area Style One-->
     <!--==================================================-->
-    <div class="footer-area style-one pt-5">
+    <div class="footer-area style-one pt-5 d-none">
       <div class="container pt-5">
         <div class="row d-none">
           <div class="col-lg-4 col-md-6">
@@ -1913,5 +1962,28 @@
     <!-- Cousom carousel js -->
     <script src="js/coustom-carousel.js"></script>
     <script src="js/scroll-up.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+      window.addEventListener("load", function () {
+        if (window.VANTA) {
+          VANTA.NET({
+            el: "#body",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 100,
+            minWidth: 200,
+            scale: 1,
+            scaleMobile: 1,
+            color: 0x82e4a,
+            backgroundColor: 0x51b3c,
+            points: 50,
+            maxDistance: 26,
+          });
+        }
+      });
+    </script>
   </body>
 </html>
