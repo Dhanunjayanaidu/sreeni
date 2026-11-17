@@ -1,10 +1,3 @@
-/*
-
- font-family: "Rajdhani", sans-serif;
- font-family: "Nunito", sans-serif;
-*/
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rajdhani:wght@300;400;500;600;700&display=swap');
-
 html,
 body {
     overflow-x: hidden;
@@ -13,19 +6,19 @@ body {
 body {
     font-size: 16px;
     line-height: 26px;
-    color: #686868;
+    color: #1b140e;
     font-weight: 400;
     text-align: left;
-    font-family: "Nunito", sans-serif;
-    background-color: #051b3c;
+    font-family: "Inter", sans-serif;
+    background-color: #fffaf6;
 }
 
 p {
     font-size: 16px;
     line-height: 26px;
-    color: #7a93b8;
+    color: #1b140e;
     font-weight: 500;
-    font-family: "Nunito", sans-serif;
+    font-family: "Inter", sans-serif;
     transition: 0.5s;
 }
 
@@ -36,7 +29,7 @@ h4,
 h5,
 h6 {
     color: #041424;
-    font-family: "Rajdhani", sans-serif;
+    font-family: "Hedvig Letters Serif", serif;
     font-style: normal;
     margin-bottom: 0;
     margin-top: 11px;
@@ -50,7 +43,7 @@ h6 {
 a {
     -webkit-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
-	font-family: "Nunito", sans-serif;
+	font-family: "Inter", sans-serif;
 }
 
 a {
