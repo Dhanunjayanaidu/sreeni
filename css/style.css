@@ -2007,7 +2007,8 @@
     z-index: 1;
     margin-bottom: 25px;
     border-radius: 5px;
-    height: 93vh;
+    min-height: 60vh;
+    max-height: 80vh;
 }
 
 .style-two .single-services-box:before {
@@ -2676,12 +2677,21 @@
     font-weight: 600;
     color: #00b4d8;
     flex-shrink: 0;
-    min-width: 80px;
+    min-width: 100px;
 }
 
 .right-stat-label {
     font-size: .9rem;
     color: #7a93b8;
+}
+
+.right-stat-num p {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #00b4d8;
+    flex-shrink: 0;
+    min-width: 110px;
 }
 
 
@@ -9235,5 +9245,68 @@ Awards One Css
                 color: #7a93b8;
             }
         }
+    }
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 80%;
+    }
+
+    .style-two .single-services-box {
+        min-height: 60vh;
+    }
+
+    .style-two.portfolio-area {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .style-two.working-proces-area {
+        padding: 50px 0px 0px 0px;
+        margin-top: 0px;
+    }
+
+    .style-two.portfolio-area .processSet {
+        margin-bottom: 0px;
+        text-align: left;
+        border-left: solid 3px rgb(53 85 131);
+        padding-left: 30px;
+        height: 150px;
+    }
+
+    .style-two.portfolio-area .processSet:hover {
+        border-left-color: #0078d4;
+    }
+
+    .style-two.portfolio-area .processSet .h1 {
+        display: none;
+    }
+
+    .style-two.portfolio-area .processSet .h4 {
+        color: #7a93b8;
+    }
+
+    .style-two.portfolio-area .processSet:hover .h4 {
+        color: white;
+    }
+
+    .style-two.portfolio-area .divider {
+        border-left: solid 1px rgb(53 85 131);
+        height: 150px;
+        display: none;
+    }
+
+    .style-two.service-area {
+        padding: 50px 0 50px 0;
+    }
+
+    .industries-section {
+        padding: 60px 0;
+    }
+
+    .style-two.hero-area {
+        min-height: 10vh;
+        overflow: hidden;
+        padding: 50px 0;
     }
 }
