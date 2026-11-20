@@ -2376,9 +2376,9 @@
     font-size: 24px;
     color: #1b140e;
 }
-.style-two.portfolio-area .processSet:hover .h4 {
+/* .style-two.portfolio-area .processSet:hover .h4 {
     color: white;
-}
+} */
 
 .divider {
     border-left: solid 1px rgb(53 85 131);
@@ -2579,7 +2579,7 @@
 
 .testi-role {
     font-size: .78rem;
-    color: #1b140e;
+    color: #ffffff;
 }
 
 .tag-ent {
@@ -2731,7 +2731,7 @@
 
     .section-sub {
         color: #1b140e;
-        max-width: 560px;
+        max-width: 610px;
         margin-top: .9rem;
         line-height: 1.8;
     }
@@ -2777,7 +2777,7 @@
 
 .cta-section p {
     color: #1b140e;
-    max-width: 560px;
+    max-width: 690px;
     margin: 1.2rem auto 0;
     font-size: 1.05rem;
     position: relative;
@@ -9257,6 +9257,11 @@ Awards One Css
     }
 }
 
+/* @media (max-width: 1398px) {
+    .style-two .single-services-box {
+        min-height: 83vh;
+    }
+} */
 @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 80%;
@@ -9293,11 +9298,13 @@ Awards One Css
 
     .style-two.portfolio-area .processSet .h4 {
         color: #1b140e;
+        font-family: "Inter", sans-serif;
+        font-weight: bold;
     }
 
-    .style-two.portfolio-area .processSet:hover .h4 {
+    /* .style-two.portfolio-area .processSet:hover .h4 {
         color: white;
-    }
+    } */
 
     .style-two.portfolio-area .divider {
         border-left: solid 1px rgb(53 85 131);
