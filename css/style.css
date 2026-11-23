@@ -7306,7 +7306,7 @@ span.flaticon-multiply i {
     cursor: pointer;
     display: block;
     border-radius: 50px;
-    box-shadow: inset 0 0 0 2px rgba(22, 93, 245, 0.2);
+    box-shadow: inset 0 0 0 2px rgb(12 90 219 / 50%);
     z-index: 9999999999;
     opacity: 0;
     visibility: hidden;
@@ -7328,7 +7328,7 @@ span.flaticon-multiply i {
     text-align: center;
     line-height: 46px;
     font-size: 18px;
-    color: #0c5adb;
+    color: #423514;
     left: 0;
     top: 0;
     height: 46px;
@@ -7362,7 +7362,7 @@ span.flaticon-multiply i {
   transition: all 200ms linear !important;
 }
 .prgoress_indicator:hover ::after {
-  color: #0c5adb;
+  color: #423514;
 }
 .prgoress_indicator:hover ::before {
   opacity: 1;
@@ -7371,7 +7371,7 @@ span.flaticon-multiply i {
   fill: none;
 }
 .prgoress_indicator svg.progress-circle path {
-  stroke:#0c5adb;
+  stroke:#423514;
   stroke-width: 4;
   box-sizing: border-box;
   transition: all 200ms linear !important;
@@ -9333,4 +9333,9 @@ Awards One Css
 
 .style-two .hero-button p {
     margin-bottom: 0px;
+}
+
+
+.style-two.section-title p {
+    width: 50%;
 }

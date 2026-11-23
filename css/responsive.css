@@ -3823,7 +3823,22 @@ p.blog-details-desc {
 /* Mobile Devices :320px. */
 @media (min-width: 320px) and (max-width: 479px) {
 
+    .style-two .single-services-box {
+        min-height: 95vh;
+        max-height: 100vh;
+    }
 
+    .style-two.section-title p {
+        width: 100%;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .industries-section {
+        padding: 6rem 0%;
+    }
 /*Home 1 Resopnsive*/
 .top-header-area {
     display: none;
@@ -3834,7 +3849,7 @@ p.blog-details-desc {
 }
 
 .sticky {
-    position: absolute !important;
+    /* position: absolute !important; */
 }
 
 .style-one.hero-area {
@@ -4041,6 +4056,11 @@ p.blog-details-desc {
 /*===============Home two Responsive Css============*/
 .style-two.hero-area {
     padding-bottom: 1px;
+    padding-top: 6rem;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x:3.5rem;
 }
 
 .style-two .hero-right {

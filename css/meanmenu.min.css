@@ -1,6 +1,6 @@
 a.meanmenu-reveal{display:none}
 .mean-container .mean-bar {
-  background: #0c5adb;
+  background: #423514;
   float: left;
   min-height: 60px;
   padding: 4px 0 0;
@@ -124,7 +124,7 @@ a.meanmenu-reveal{display:none}
 }
 .mean-container .mean-bar::before {
     color: #fff;
-    content: "TechCom";
+    content: "PowerForge";
     font-size: 28px;
     font-weight: 600;
     left: 10px;
